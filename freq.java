@@ -22,7 +22,6 @@ second = i;
 }
 return (char) second;
 }
-
 public static void main(String[] args){
 String str;
 Scanner sc = new Scanner(System.in);
@@ -30,13 +29,11 @@ System.out.println("enter a string :");
 str = sc.next();
 
 char res = frequency(str);
-
 if (res != '\0'){
 System.out.println(res);
 }
 else{
 System.out.println("no second most character in the string");
 }
-
 }
 }
