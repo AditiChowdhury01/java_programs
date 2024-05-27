@@ -21,6 +21,7 @@ if(!conVowel){
 throw new NoVowelException("string does not contain vowels");
 }
 }
+
 public static void main(String[] args){
 try{
 Scanner sc = new Scanner(System.in);
@@ -28,13 +29,10 @@ System.out.println("enter a string:");
 String w = sc.nextLine();
 word(w);
 System.out.println("string contains vowels");
-
 }
 catch(Exception e){
 System.out.println(e);
-
 }
 }
-
 }
 
