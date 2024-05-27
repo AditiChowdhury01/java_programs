@@ -1,3 +1,4 @@
+# need to work on it
 <HTML>
 <HEAD>
 <TITLE>WELCOME TO JAVA APPLET</TITLE>
@@ -9,7 +10,4 @@
 <APPLET CODE = appletinput.class WIDTH = 400 HEIGHT = 400>
 </APPLET>
 </BODY>
-
-
-
 </HTML>
