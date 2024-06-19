@@ -47,6 +47,7 @@ Scanner sc = new Scanner(System.in);
 System.out.println("enter the amount you want to withdraw:");
 withdrawal = sc.nextDouble();
 double rem  = balance - withdrawal;
+//System.out.println(balance);
 
 try{
 
@@ -60,6 +61,7 @@ else if(rem<1000){
 throw new MyException("balance cannot be less than 1000");
 }
 }
+
 
 catch(MyException ex){
 System.out.println(ex);
@@ -75,8 +77,9 @@ System.out.println();
 System.out.println("your id is: "+c_id);
 System.out.println("your name is: "+c_name);
 System.out.println("you want to deposit: "+amount);
-System.out.println("the balance amount left in the account: "+balance);
 System.out.println("you want to withdraw: "+withdrawal);
+System.out.println("the balance amount left in the account: "+(balance-withdrawal));
+
 }
 
 }
